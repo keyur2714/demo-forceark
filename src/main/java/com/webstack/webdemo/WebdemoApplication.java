@@ -16,6 +16,11 @@ public class WebdemoApplication {
 		return "Hello Radhe Krishna...!";
 	}
 	
+	@GetMapping("/sayHello")
+	public String sayHello() {
+		return "Hello Welcome to World of CICD...!";
+	}
+	
 	public static void main(String[] args) {
 		SpringApplication.run(WebdemoApplication.class, args);
 	}
