@@ -13,11 +13,11 @@ public class WebdemoApplication {
 
 	@GetMapping("/")
 	public String sayHello() {
-		return "Hello Radhe Krishna...!";
+		return "Godd Morning...Hello Radhe Krishna...!";
 	}
 	
 	@GetMapping("/sayHello")
-	public String sayHello() {
+	public String sayHi() {
 		return "Hello Welcome to World of CICD...!";
 	}
 	
